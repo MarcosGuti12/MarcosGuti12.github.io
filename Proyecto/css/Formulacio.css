@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.fondo {
+    margin: 40px auto;
+}
+
+a:hover{
+    font-size: 20px;
+
+}
+
+.Top {
+    background-color: darkblue;
+    color: white;
+    position: sticky;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.arriba {
+    color: white;
+}
+
+.Top div {
+    margin: 10px;
+}
+
+.Izquierda {
+    border: 1px black solid;
+    float: left;
+    margin-top: 3%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.Izquierda div {
+    margin-top: 40px;
+
+}
+
+.Izquierda2 {
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    right: 50%;
+    margin-top: 3%;
+    width: 400px;
+    height: 397px;
+    border: 1px black solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Izquierda2 p {
+    margin-top: 50px;
+}
+
+.dentro {
+    text-align: center;
+}
+
+.centro {
+    border: 1px black solid;
+    margin-top: 50px;
+    margin-right: 7px;
+    border-radius: 5px;
+    height: 555px;
+    float: right;
+    width: 40%;
+    column-rule: 2px black solid;
+    font-size: 17px;
+}
+
+textarea{
+    margin: 10px;
+    height: 530px;
+    width: 720px;
+}
+
+body {
+    background-color: bisque;
+    height: 150%;
+
+}
+
+.abajo a {
+    color: white;
+}
+
+
+footer {
+    background-color: darkblue;
+    display: inline-flex;
+    position: absolute;
+    left: 0.5%;
+    width: 99%;
+    bottom: 0;
+    text-align: center;
+
+}
+
+div.abajo {
+    text-align: center;
+    margin: 10px;
+    margin-left: 300px;
+    color: white;
+}
