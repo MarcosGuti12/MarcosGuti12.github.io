@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Formulacio.css">
+</head>
+
+<body>
+    <div class="Fondo">
+        <header>Formulario
+            <nav class="Top">
+                <a class="arriba" href="/index.html">
+                    <div>Inicio</div>
+                </a>
+                <a class="arriba" href="/Paginas/curriculum.html">
+                    <div>Curriculum</div>
+                </a>
+                <a class="arriba" href="">
+                    <div>Formulario</div>
+                </a>
+                <a class="arriba" href="/Paginas/Proyecto.html">
+                    <div>Proyecto</div>
+                </a>
+            </nav>
+        </header>
+    </div>
+    <nav class="Izquierda">
+        <form action="datospersonales" method="get">
+            Datos personales
+            <div><label> Foto<input type="file" name="Foto"></label></div>
+            <div><label> Nombre:<input type="text" name="nombre" required size="20"
+                        placeholder="Escriba su nombre"></label></div>
+            <div><label> Apellidos:<input type="text" name="apellidos" required size="40"
+                        placeholder="Escriba sus dos apellidos"></label></div>
+            <div><label> DNI<input type="text" name="DNI" required placeholder="Escriba su DNI"></label></div>
+            <div><label> Correo personal <input type="text" name="correo" size="40"
+                        placeholder="Escriba su correo"></label></div>
+            <div><label> Fecha de nacimiento <input type="date" name="fecha"></label></div>
+            <div> Sexo:
+                <label><input type="radio" name="hm" value="h" required> Hombre</label>
+                <label><input type="radio" name="hm" value="m" required> Mujer</label>
+            </div>
+            <div>
+                <label for="hijos">Numero de hijos<select name="hijos" id="hijos">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </label>
+            </div>
+            <p><button type="submit" value="Enviar"><img src="/img/enviar.png" alt="" width="30"
+                        height="30">Enviar</button>
+                <button type="reset" value="Borrar"><img src="/img/eliminar.png" alt="" width="30"
+                        height="30">Borrar</button>
+            </p>
+        </form>
+    </nav>
+
+    <nav class="Izquierda2">
+        Datos academicos
+        <p> Nivel de ingles (Bajo,Medio,Alto)</p>
+        <input type="range" name="rango" min="1" max="3" list="lista-rango">
+        <datalist id="lista-rango">
+            <option value="1" label="Malo">
+            <option value="2" label="Medio">
+            <option value="3" label="Bueno">
+        </datalist>
+        <p>Curso o cursos repetidos
+            <label><input type="radio" name="repetir" value="Si"> Si</label>
+            <label><input type="radio" name="repetir" value="No"> No</label>
+        </p>
+        <p>Si es asi indique que curso o cursos ha repetido</p>
+        <input type="text" name="crepetido" size="20" placeholder="Ej: 1ESO,2ESO...">
+
+    </nav>
+
+    <main class="centro">
+        <section>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Describete brevemente"></textarea>
+        </section>
+
+    </main>
+   
+    <nav>
+        <footer>
+            <div class="abajo"><a href="https://github.com/MarcosGuti12">Github</a></div>
+            <div class="abajo"><a href="https://www.instagram.com/mgutii_31/">Instagram</a></div>
+            <div class="abajo">marcos.gutierrez5@educa.madrid.org</div>
+        </footer>
+    </nav>
+</body>
+
+</html>
