@@ -1,0 +1,143 @@
+body{
+    background-color: bisque;
+}
+header {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: narrower;
+    text-transform: initial;
+}
+
+.fondo {
+    margin: 40px auto;
+}
+
+.Top {
+    background-color: darkblue;
+    color: white;
+    position: sticky;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+a:hover{
+    font-size: 20px;
+
+}
+
+.arriba {
+    color: white;
+}
+
+
+
+.Top div {
+    margin: 10px;
+}
+
+.Izquierda {
+    border: 1px black solid;
+    float: left;
+    margin-top: 3%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.Izquierda div {
+    margin-bottom: 40px;
+}
+
+.Izquierda img {
+    width: 120px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.Izquierda2 {
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    right: 65%;
+    margin-top: 3%;
+    width: 200px;
+    height: 470px;
+    border: 1px black solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div li{
+    list-style-type:none;
+}
+
+.imagenes img {
+    height: 60px;
+}
+
+.dentro {
+    text-align: center;
+}
+
+.aweb {
+    position: absolute;
+    top: 60%;
+}
+
+.titulo{
+    color:lawngreen
+}
+
+.centro {
+    border: 1px black solid;
+    margin-top: 50px;
+    margin-right: 7px;
+    border-radius: 5px;
+    height: 465px;
+    float: right;
+    width: 60%;
+    column-rule: 2px black solid;
+    font-size: 17px;
+}
+table{
+    border: 2px black solid;
+    position:absolute;
+    left: 55%;
+    top: 25%;
+    height: 190px;
+    width: 500px;
+    background-color: darkblue;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+.abajo a{
+    color: white;
+}
+
+footer {
+    background-color: darkblue;
+    display: inline-flex;
+    position: absolute;
+    left: 0.5%;
+    width: 99%;
+    bottom: 0;
+    text-align: center;
+
+}
+
+div.abajo {
+    text-align: center;
+    margin: 10px;
+    margin-left: 300px;
+    color: white;
+}
